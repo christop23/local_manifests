@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="sd"
+            fetch="https://github.com/Sakura-Devices"
+            clone-depth="1" />
+   
+   <remote name="los"
+            fetch="https://github.com/LineageOS"
+            clone-depth="1" />
+  
+ <!-- Trees -->
+ <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="sd" revision="sakura" />
+ <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="sd" revision="sakura" />
+ <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="sd" revision="sakura" />
+ <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_miatoll" remote="sd" revision="sakura" />
+ <project path="vendor/xiaomi/sm6250-common" name="vendor_xiaomi_sm6250-common" remote="sd" revision="sakura" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
+ <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="los" revision="lineage-21" />
+
+
+  
+</manifest>
