@@ -12,7 +12,7 @@
  <project path="device/xiaomi/miatoll" name="christop23/device_xiaomi_miatoll" remote="GitHub" revision="main" />
  
  <!--Kernel -->
- <project path="kernel/xiaomi/sm6250" name="christop23/lumos_kernel_miatoll" remote="GitHub" revision="stable" />
+ <project path="kernel/xiaomi/sm6250" name="christop23/kinesis_kernel_miatoll" remote="GitHub" revision="15" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/miatoll" name="christop23/vendor_xiaomi_miatoll" remote="GitHub" revision="main" />
