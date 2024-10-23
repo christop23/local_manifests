@@ -6,14 +6,13 @@
             clone-depth="1" />
 
  <!--Tree -->
- <project path="device/xiaomi/miatoll" name="christop23/device_xiaomi_miatoll" remote="GitHub" revision="voltage" />
+ <project path="device/xiaomi/miatoll" name="christop23/device_xiaomi_miatoll" remote="GitHub" revision="lineage-21" />
  
  <!--Kernel -->
  <project path="kernel/xiaomi/sm6250" name="LineageOS/android_kernel_xiaomi_sm6250" remote="GitHub" revision="lineage-21" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/miatoll" name="christop23/vendor_xiaomi_miatoll" remote="GitHub" revision="main" />
- <project path="vendor/xiaomi/miuicamera" name="christop23/vendor_xiaomi_miuicamera" remote="GitHub" revision="14" />
  
  <!--Extras -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="GitHub" revision="lineage-21" />
