@@ -5,6 +5,9 @@
             fetch="https://github.com"
             clone-depth="1" />
 
+    <remote name="CodeBerg"
+            fetch="https://codeberg.org" />
+
  <!--Tree -->
  <project path="device/xiaomi/miatoll" name="christop23/device_xiaomi_miatoll" remote="GitHub" revision="lineage-21" />
  
@@ -17,5 +20,6 @@
  <!--Extras -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="GitHub" revision="lineage-21" />
  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="GitHub" revision="lineage-21" />
+ <project path="vendor/lineage-priv" name="tanjiro/vendor_sakura-priv" remote="CodeBerg" revision="14" />
 
 </manifest>
